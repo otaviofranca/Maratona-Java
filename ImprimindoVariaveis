@@ -1,0 +1,22 @@
+public class ImprimindoVariaveis {
+    public static void main(String[] args){
+
+        int numInteiro = 10;       // 4 bytes
+            byte numByte = 20;      // 1 byte
+                short numShort = 30;    // 2 bytes
+                    long numLong = 40;  //8 bytes
+
+        double numDouble = 50.34;   //8bytes
+        float numFloat = 654689;    // 4 bytes
+        boolean expressaoBoleana = true;    // 1 bit
+        char charLetra = 'o';      // 2 bytes
+
+        System.out.println("Imprimindo variaveis");
+        System.out.println(numInteiro);
+        System.out.println(numByte);
+        System.out.println(numShort);
+        System.out.println(numLong);
+        System.out.println(numDouble);
+        System.out.println(numFloat);
+        System.out.println(charLetra);
+        System.out.println(expressaoBoleana);
