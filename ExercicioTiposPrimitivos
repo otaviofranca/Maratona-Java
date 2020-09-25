@@ -1,0 +1,10 @@
+public class ExerciciosTiposPrimitivos {
+    public static void main(String[] args){
+        String nome = "otavio Franca";
+        String endereco = " Rua Projetada";
+        int numero = 981203281;
+
+    System.out.println("o " + nome + " que mora na " + endereco + " tem o numero: " + numero);
+
+    }
+}
