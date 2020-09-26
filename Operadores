@@ -1,0 +1,20 @@
+public class Operadores {
+    /*
+    adição: +
+    subtração: -
+    multiplicção: *
+    divisão: /
+    resto: %
+    incremento: ++
+    decremento: --
+     */
+    public static void main(String[] args){
+        int valorInt = 10;
+        int valorInt2 = 20;
+                System.out.println( "A soma é: " + (valorInt + valorInt2));
+                System.out.println( "A subtração é: " + (valorInt - valorInt2));
+                System.out.println( "A multiplicação é: " + (valorInt * valorInt2));
+                System.out.println( "A divisão é: " + (valorInt / valorInt2));
+                System.out.println("O resto da divisão: " + valorInt +" / " + valorInt2 + " é: " + (valorInt2%valorInt2));
+    }
+}
