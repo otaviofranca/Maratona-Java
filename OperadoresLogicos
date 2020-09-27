@@ -1,0 +1,11 @@
+public class OperadoresLogicos {
+    // && = and, || = or
+    public static void main(String[] args){
+        System.out.println("Tabela Verdade: " );
+        System.out.println("&& is true <=>  1° Verdadeira e a 2° for Verdadeira");
+        System.out.println("|| is true <=> 1° verdadeira ou a 2° verdadeira");
+        System.out.println("&& is false <=>  1° falsa e a 2° for falsa");
+        System.out.println("|| is false <=> 1° falsa ou a 2° falsa");
+    }
+
+}
