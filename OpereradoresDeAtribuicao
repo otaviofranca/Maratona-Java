@@ -1,0 +1,11 @@
+public class OperadoresDeAtibuição {
+    /*
+        Eles servem para diminuir a a quantidade de códigos no seu programa:
+
+    -= subtrai
+    +=  soma
+    /= divide
+    *= multipica
+    %= apresenta o resto da divisão
+     */
+}
