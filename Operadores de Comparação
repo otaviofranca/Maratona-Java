@@ -1,0 +1,17 @@
+public class OperadoresDeComparacao {
+    /*
+    > maior que
+    < menor que
+    >= maior igual
+    <= menor igual
+    == igual
+    != diferente
+
+     */
+    public static void main(String[] args){
+
+
+
+    }
+
+}
