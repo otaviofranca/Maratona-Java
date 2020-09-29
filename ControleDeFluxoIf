@@ -1,0 +1,21 @@
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+
+import javax.xml.bind.SchemaOutputResolver;
+
+public class ControleDeFluxoIf {
+    public static void main(String[] args) {
+        int num = 10;
+        String expressao;
+        if(num%2 == 0){
+           System.out.println("O nummero é par");
+        }else{
+            System.out.println("o numero é impar");
+        }// Usando operador Ternário podemos Diminuir a quantidade de Linhas de código
+        expressao = num% 2 == 0 ? "0" : "1";
+        System.out.println("O resto da divisão é: " + expressao);
+        // Podemos tambem colocalos dentro de um Print...
+        System.out.println(expressao = num>56 ? "é maior que 56" : "é menor que 56" );
+    }
+
+}
+
