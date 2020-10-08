@@ -1,0 +1,13 @@
+package br.com.introducao;
+
+public class ControleDeFluxoWhile {
+    public static void main(String[] args) {
+        int i = 0;
+        while (i<=10){
+
+            System.out.println("loop na posição: "+ i);
+
+            i++;
+        }
+    }
+}
