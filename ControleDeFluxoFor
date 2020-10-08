@@ -1,0 +1,16 @@
+package br.com.introducao;
+
+public class ControleDeFluxoFor {
+    public static void main(String[] args) {
+        for(int i=0; i<=10; i++){
+            System.out.println("primeiro for:"+i);
+            System.out.println("===========================================================");
+            for(int y = 0; y<=10; y++){
+                System.out.println("segundo for: "+y);
+                System.out.println("===========================================================");
+                System.out.println(i + " * " + y + " = "+ (i*y));
+            }
+
+        }
+    }
+}
